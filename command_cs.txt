@@ -1,0 +1,15 @@
+git init                      # 初始化 Git 儲存庫(建立.git)
+git status                    # 查看狀態 (U未追蹤 T已追蹤 S已暫存 C已提交) 
+git add <file name>           # 加入file到暫存區
+git add .                     # 加入所有檔案到暫存區
+git commit -m "版本訊息"       # 提交紀錄
+
+git config --global user.name "作者姓名"       #設定作者姓名
+git config --global user.email "作者電子郵件"   #設定作者電郵
+git log     #版本紀錄 按q退出
+
+git diff  <版本號> --<檔案名>      #查看該檔案目前內容與版本號內容差異
+git checkout <版本號> --<檔案名>   #確定將檔案改回該版本(需再次commit)
+git reset --hard <版本號>         #所有檔案還原，刪除之後版本
+
+目錄建立".gitignore" 內容寫入需要忽略的檔名 可以避免被追縱
