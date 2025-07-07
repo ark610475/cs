@@ -13,3 +13,9 @@ git checkout <版本號> --<檔案名>   #確定將檔案改回該版本(需再�
 git reset --hard <版本號>         #所有檔案還原，刪除之後版本
 
 目錄建立".gitignore" 內容寫入需要忽略的檔名 可以避免被追縱
+
+#github
+git remote add origin https://github.com/ark610475/cs.git  #在Repo中建立
+git branch -M main
+git push -u origin main
+#之後做完想更新Repo一定要使用 git push
