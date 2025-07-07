@@ -19,3 +19,20 @@ git remote add origin https://github.com/ark610475/cs.git  #在Repo中建立
 git branch -M main
 git push -u origin main
 #之後做完想更新Repo一定要使用 git push
+
+#協作
+ 到Repo-> setting -> Collaborators -> add
+
+ 到信箱收取協作信件
+ 成為協作者之後 使用 git clone <Repo URL>來複製檔案到終端
+ git pull      # 拉取遠端更新
+ git log       # 查看提交紀錄
+ git branch    # 目前分支
+ git checkout -b <branchname>    #建立新分支
+ git push origin <branchname>    #推送至某分支
+ git fetch                       #分支表
+
+ 更新後可以到Github 的 branches 中找到自己的分支 選單中選取pull request
+ 其他人可以看到pull request並審核更新的部分
+ 發現可改進->評論區中留言  或右上角請求修改
+ 沒問題->merge  與主分支合併
